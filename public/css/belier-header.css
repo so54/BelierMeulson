@@ -1,0 +1,357 @@
+
+/*********************************************
+                     GENERAL
+ *********************************************/
+
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size:14px;
+    color:#292929;
+}
+
+.aligne-center{
+    text-align:center;
+}
+
+.aligne-justify{
+    text-align:justify;
+}
+
+button{
+    border: none;
+    background: transparent;
+    outline: 0;
+    text-align: left;
+}
+
+ul, ol{
+    padding-left: 25px;
+}
+
+h1{
+    font-weight: normal;
+    font-size:26px;
+    color:#F15939;
+    font-family: 'neucha';
+}
+
+h2{
+    font-weight: normal;
+    font-size:26px;
+    color:#F15939;
+    font-family: 'neucha';
+    margin: 30px 0;
+}
+
+h3{
+    font-weight: normal;
+    font-size:18px;
+    color:#1CB6B0;
+}
+
+a {
+    text-decoration: none !important;
+    transition: all 0.3s linear;
+    color: #F15939;
+}
+
+a:hover{
+    color: #1C5E93;
+}
+
+
+
+
+label{
+    font-weight: 400;
+}
+
+strong{
+    font-weight: 600;
+}
+
+object {
+    width:100%;
+    height:600px;
+    overflow: scroll;
+}
+
+.modal-header{
+    display: block;
+}
+
+/*********************************************
+                    NAV
+*********************************************/
+
+.navbar-brand, .navbar-header{
+    float: none;
+    height: auto;
+}
+
+.navbar-brand{
+    display: block;
+    padding: 20px 5px;
+}
+
+.navbar-brand>img{
+    display: inline-block;
+}
+
+.navbar {
+    border:none;
+    filter: none !important;
+    box-shadow: none;
+    margin-bottom: 0;
+    background: transparent;
+    min-height: 0;
+    clear: both;
+}
+
+.navMain .nav  > li > a{
+    font-size: 18px;
+    line-height: 35px;
+    text-align:center;
+    font-family: 'neucha';
+    text-transform: uppercase;
+    background: #1CB6B0;
+    color: #FFF;
+    border-radius: 10px 10px 0 0;
+    padding: 6px 8px 0 !important;
+}
+
+.nav-pills>li+li{
+    margin-left: 4px;
+}
+
+.navMain .nav-pills > li.active > a,
+.navMain .nav-pills > li.active > a:hover,
+.navMain .nav-pills > li.active > a:focus,
+.navMain .nav > li > a:hover,
+.navMain .nav > li > a:focus,
+.navMain .nav .open > a, .nav .open > a:hover,
+.navMain .nav .open > a:focus{
+    background:#F15939;
+    color:#fff;
+}
+
+.navMain .dropdown-menu > li {
+    list-style-image: none !important;
+    list-style: none !important;
+    box-shadow:none !important;
+    border:0 !important;
+    margin:0 !important;
+}
+
+.dropdown-menu{
+    margin: 0;
+    padding: 0;
+    background: #1CB6B0;
+    border-radius: 0 0 8px 8px;
+    border:none;
+    overflow: hidden;
+
+    animation-name: slidenavAnimation;
+    animation-duration:.5s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+
+    -webkit-animation-name: slidenavAnimation;
+    -webkit-animation-duration:.5s;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-timing-function: ease;
+    -webkit-animation-fill-mode: forwards;
+
+    -moz-animation-name: slidenavAnimation;
+    -moz-animation-duration:.5s;
+    -moz-animation-iteration-count: 1;
+    -moz-animation-timing-function: ease;
+    -moz-animation-fill-mode: forwards;
+}
+
+@keyframes slidenavAnimation {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+@-webkit-keyframes slidenavAnimation {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+.nav li.dropdown:hover>ul {
+    display: block;
+}
+
+.dropdown-menu > li > a{
+    color: #FFF;
+    font-size: 22px;
+    padding: 7px 15px;
+}
+
+.dropdown-menu > li > a:focus,
+.dropdown-menu > .active > a, .dropdown-menu > .active > a:hover,
+.dropdown-menu > .active > a:focus{
+    background-color: transparent;
+    background-image: none;
+    color: #1C5e93;
+
+}
+
+.dropdown-toggle::after {
+    content:none;
+
+}
+
+.dropdown-menu > li > a:hover{
+    background:#F15939;
+    color:#fff;
+}
+
+.navbar-info {
+    float: left;
+    color: #1CB6B0;
+    font-size: 18px;
+    font-family: 'neucha';
+    padding: 35px 0;
+    font-weight: bold;
+}
+
+.navbar-info strong{
+    font-size: 30px;
+}
+
+.lt-ie9 .navbar-info{
+    width:310px;
+}
+
+.navbar-info p{
+    margin-bottom: 0;
+}
+
+.navbar-info a{
+    color:#1CB6B0;
+}
+
+.navbar-info a:hover{
+    color: #F15939;
+}
+
+.navTop{
+    float: right;
+}
+
+.navTop a,
+.navTop button{
+    font-size: 15px;
+    text-align:center;
+    font-family: 'neucha';
+    background: #F15939;
+    color: #FFF;
+    border-radius: 0 0 10px 10px;
+    padding: 5px 12px;
+    display: inline-block;
+    outline:0;
+    transition: all 0.3s linear;
+}
+
+.navTop a:hover,
+.navTop button:hover{
+    background: #1CB6B0;
+    color: #FFF;
+}
+
+.selectnav{
+    display: none;
+    height: auto;
+    padding: 6px 12px;
+    font-size: 14px;
+    width: 100% !important;
+    max-width: 300px;
+    margin: 15px auto !important;
+    line-height: 1.428571429;
+    color: #555555;
+    vertical-align: middle;
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    -webkit-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+    transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+}
+
+/*********************************************
+                    HEADER
+*********************************************/
+
+header{
+    background:url(../images/kids-dog.png) no-repeat right 32px bottom ;
+}
+
+.logo{
+    padding-top:15px;
+}
+
+.txtHeader{
+    float: right;
+    text-transform: uppercase;
+    font-size: 17px;
+    font-family: 'neucha';
+    text-align: right;
+    color: #F15939;
+    margin-right: 150px;
+
+    font-weight: bold;
+}
+
+
+
+h4 >strong{
+    font-weight:bold;
+    font-size:20px;
+    color:#ad0000;
+}
+
+
+/*********************************************
+              MEDIA QUERIES
+*********************************************/
+
+@media (min-width:1200px) {
+    .navMain .nav  > li > a{font-size: 18px; padding: 6px 10px 0;}
+    .navTop a, .navTop button{font-size: 18px;}
+    .navbar-info{font-size: 19px;}
+    .navbar-info strong{font-size: 32px;}
+    .txtHeader{font-size: 18px;}
+    .navbar-brand {padding: 10px 15px;}
+    h1, h2{font-size: 28px;}
+}
+
+@media (max-width:991px) {
+    .navbar-brand{display: inline-block;}
+    .navbar-info{float: right; margin-top: -220px; text-align: right;}
+    .navTop{clear: both; float: left; margin: 20px 0;}
+    .navTop a, .navTop button{border-radius: 10px; display: block; margin: 0 20px 15px;width:200px;}
+    .txtHeader{margin-bottom:0px;}
+    .logo{padding-top:0px;}
+    .navbar-info p{padding-top:35px;}
+}
+
+@media (max-width:767px) {
+    .navbar-header{text-align: center;}
+    .navbar-brand{padding: 0;}
+    .navbar-info{margin-top: 0; text-align: center; float: none; font-size: 16px; padding: 15px 0;}
+    .navbar-info strong{font-size: 24px;}
+    .navTop{float: none; margin: 0 0 15px;}
+    .navTop a, .navTop button{max-width: 250px; margin: 0 auto 10px; }
+    header {background: none;}
+    .txtHeader, #mainMenu{display: none;}
+    .selectnav{display: block;}
+    h2{font-size: 24px;}
+}
+
+

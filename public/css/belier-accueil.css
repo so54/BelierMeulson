@@ -1,0 +1,425 @@
+
+/*********************************************
+                     GENERAL
+ *********************************************/
+
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size:14px;
+    color:#292929;
+}
+
+.aligne-center{
+    text-align:center;
+}
+
+.aligne-justify{
+    text-align:justify;
+}
+
+button{
+    border: none;
+    background: transparent;
+    outline: 0;
+    text-align: left;
+}
+
+ul, ol{
+    padding-left: 25px;
+}
+
+h1{
+    font-weight: normal;
+    font-size:26px;
+    color:#F15939;
+    font-family: 'neucha';
+}
+
+h2{
+    font-weight: normal;
+    font-size:26px;
+    color:#F15939;
+    font-family: 'neucha';
+    margin: 30px 0;
+}
+
+h3{
+    font-weight: normal;
+    font-size:18px;
+    color:#1CB6B0;
+}
+
+a {
+    text-decoration: none !important;
+    transition: all 0.3s linear;
+    color: #F15939;
+}
+
+a:hover{
+    color: #1C5E93;
+}
+
+.btn{
+    transition: all 0.3s linear;
+    font-weight: 400;
+    font-size:16px;
+    text-transform: uppercase;
+    background:#F15939;
+    border: none;
+    border-radius: 0;
+    filter:none;
+    color: #FFF;
+    text-shadow: none;
+    padding: 5px 20px;
+    font-family: 'Open Sans', sans-serif;
+    white-space: normal;
+    border-radius:4px;
+}
+
+.btn:hover,.btn:focus{
+    background: #1C5E93 ;
+    color: #FFF;
+}
+
+.btn-primary {
+    background-image: none !important;
+    background: #1C5E93 !important;
+    filter:none !important;
+    border:none !important;
+}
+
+.btn-primary:hover{
+    background:#F15939 !important;
+border:none;
+}
+
+label{
+    font-weight: 400;
+}
+
+strong{
+    font-weight: 600;
+}
+
+object {
+    width:100%;
+    height:600px;
+    overflow: scroll;
+}
+
+.orange{
+    color:#F15939;
+}
+
+/*********************************************
+                ACCUEIL
+*********************************************/
+
+.bandeauAcc{
+    background: #F15939;
+    color: #FFF;
+    text-align: center !important;
+    overflow: hidden;
+}
+
+
+.TitreBandeauAcc{
+    font-family: 'neucha';
+    font-size: 24px;
+    margin: 50px 0 40px;
+}
+
+.TitreBandeauAcc >strong{
+    font-weight: normal;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+h4 >strong{
+    font-weight:bold;
+    font-size:20px;
+    color:#f11439;
+}
+
+.TitreBandeauAcc h4{
+    font-family: "neucha"!important;
+    font-weight: bold;
+    text-align:left;
+}
+
+.TitreBandeauAcc em{
+    font-style: normal;
+    text-transform: uppercase;
+    line-height: 80px;
+    font-size: 52px;
+}
+
+.actuAcc:before{
+    display: block;
+    content: "";
+    width: 560px;
+    height: 560px;
+    border-radius: 100%;
+    position: absolute;
+    top: -150px;
+    left: -20px;
+    z-index: 0;
+    background:url(../images/boite-aux-lettres-icon.png) no-repeat  50px 200px #F11439;
+}
+
+.actuAcc{
+    position: relative;
+    padding: 45px 0 0 120px;
+    text-align: left;
+}
+
+.actuAcc .actuAccTitre{
+    position: relative;
+    z-index: 1;
+    font-weight: normal;
+    font-size: 24px;
+    text-transform: uppercase;
+    font-family: 'neucha';
+    margin-bottom: 10px;
+}
+
+.actuAcc #carouselNews{
+    margin-top: 15px;
+}
+
+.actuAcc .btn {
+    font-size: 14px;
+    margin-top: 15px;
+    border-radius:4px
+}
+
+.actuAcc .btn:hover{
+    background: #ad0000 !important;
+    color: white !important;
+}
+
+
+.titreActuAcc{
+    font-size: 17px;
+}
+
+.navCarousel{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.carousel-control.left, .carousel-control.right{
+    width: 25px;
+    height: 25px;
+    font-size: 20px;
+    border-radius: 100%;
+    background-color: #F15939;
+    background-image: none !important;
+    opacity: 1;
+    text-align: center;
+    position: relative;
+    display: inline-block;
+}
+
+.carousel-control.left:hover, .carousel-control.right:hover{
+    background: #ad0000;
+}
+
+.carousel-control.left .glyphicon, .carousel-control.right .glyphicon{
+    font-size: 15px;
+    text-shadow: none;
+    top: 5px;
+    left: 0;
+    margin: 0;
+    width: 25px;
+    height: 25px;
+}
+
+.carousel-control.left .glyphicon{
+    left: 0;
+}
+
+.carousel-control.right .glyphicon{
+    right: 0;
+}
+
+.activites{
+    background: #1CB6B0;
+    padding: 40px 0;
+    border-top: 2px solid #FFF;
+    position: relative;
+}
+
+.lienBlockAcc{
+    display: block;
+    width: 230px;
+    height: 230px;
+    position: relative;
+    text-align:center;
+    background: #ecf0f1;
+    border-radius: 100%;
+    overflow: hidden;
+    padding-top: 60px;
+    margin-left:8px;
+}
+
+.kids{
+    text-align:center;
+    padding-left:75px;
+    display:center;
+}
+
+.contenuBlockAcc{
+    text-align: center;
+    color: #F11439;
+    font-size: 17px;
+    font-family: 'neucha';
+    font-weight: bold;
+    height: 50px;
+    line-height: 22px;
+    position: relative;
+}
+
+.contenuBlockAcc strong{
+    font-size: 22px;
+}
+
+.lienBlockAcc:hover .contenuBlockAcc{
+    color: #1CB6B0;
+}
+
+.lienBlockAcc:hover img, .lienBlockAcc:hover .pictoBlockAcc{
+    -moz-transform: rotateX(360deg);
+    -webkit-transform: rotateX(360deg);
+    -o-transform: rotateX(360deg);
+    -ms-transform: rotateX(360deg);
+    transform: rotateX(360deg);
+    padding-left:75px;
+}
+
+.lienBlockAcc img, .lienBlockAcc .pictoBlockAcc{
+    -webkit-transition: all 0.8s ease;
+    -moz-transition: all 0.8s ease;
+    -ms-transition: all 0.8s ease;
+    -o-transition: all 0.8s ease;
+    transition: all 0.8s ease;
+}
+
+.contenu ul li, .bandeau ul li {
+    list-style-type: none;
+    margin-bottom: 8px;
+    position: relative;
+}
+
+.contenu ul li:before, .bandeau ul li:before{
+    display: inline-block;
+    content: "\f101";
+    font-family: FontAwesome;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-weight: normal;
+    font-style: normal;
+    position: absolute;
+    left: -18px;
+    top: -2px;
+    font-size: 18px;
+}
+
+.contenu{
+    padding: 40px 0;
+}
+
+.galerie{
+    background: #1CB6B0;
+    background-size: 200px auto !important;
+    border-radius: 8px;
+    padding: 20px;
+    font-family: 'neucha';
+    color: #FFF;
+    font-size: 30px;
+    line-height: 36px;
+    position: relative;
+}
+
+.galerie strong{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+    text-transform: uppercase;
+    font-size: 24px;
+    color: #1C5E93;
+}
+
+.galerie:before{
+    content: "";
+    float: right;
+    margin-top: -20px;
+    margin-right: -50px;
+    width: 240px;
+    height: 210px;
+    background: url(../images/photos-icon.png) no-repeat;
+    background-position: 40px;
+    background-size: 30% auto;
+    display: inline-block;
+}
+
+.text-error{
+    color:#F11439;
+}
+
+/*********************************************
+              MEDIA QUERIES
+*********************************************/
+
+@media (min-width:1200px) {
+    .actuAcc{padding: 45px 100px 0 120px;}
+    h1, h2{font-size: 28px;}
+    .galerie:before{margin-right: -65px;margin-top:-30px;}
+}
+
+@media (max-width:991px) {
+    .TitreBandeauAcc{margin: 30px 0;}
+    .actuAcc:before{display: none;}
+    .actuAcc{background: url(../images/boite-aux-lettres-icon.png) no-repeat 30px 60px #F11439;padding: 30px 30px 20px 120px; border-radius: 40px 40px 0 0;}
+    .lienBlockAcc{margin: 15px 50px 15px;}
+    .galerie{max-width: 500px; margin: 40px auto 0;}
+    .galerie:before{margin-right: -65px;margin-top:-30px;}
+    .pageActivite .contenu{padding: 150px 0 40px;}
+    .logo{padding-top:0px;}
+}
+
+@media (max-width:767px) {
+    .lienBlockAcc{margin: 40px auto; max-width: 500px;}
+    .lienBlockAcc:hover img, .lienBlockAcc:hover .pictoBlockAcc{
+        -moz-transform: none;
+        -webkit-transform: none;
+        -o-transform: none;
+        -ms-transform: none;
+        transform: none;
+    }
+    h2{font-size: 24px;}
+}
+
+@media (max-width:600px) {
+    .actuAcc{padding: 100px 25px 20px 25px; background-position: center 20px;}
+    .actuAccTitre{text-align: center;}
+    .navCarousel{position: relative; margin: 15px 0;}
+    .actuAcc .carousel-inner{max-width: 350px; margin: auto;}
+    .TitreBandeauAcc strong{font-size: 26px;}
+    .TitreBandeauAcc em{font-size: 44px; line-height: 58px;}
+    .TitreBandeauAcc{font-size: 20px;}
+    .galerie{font-size: 26px;}
+    .galerie:before{margin-top: -20px;
+        margin-right: 15px;
+        margin-left: 40px;}
+}
+
+@media (max-width:450px){
+    .TitreBandeauAcc{font-size: 20px;}
+    .TitreBandeauAcc em{font-size: 28px; line-height: 40px;}
+    .TitreBandeauAcc strong{font-size: 20px;}
+    .galerie{text-align: center; padding: 15px;}
+    .galerie:before{float: none; margin-right: 0; width: 200px; height: 170px;}
+}

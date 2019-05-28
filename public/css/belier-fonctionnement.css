@@ -1,0 +1,293 @@
+
+/*********************************************
+                     GENERAL
+ *********************************************/
+
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size:14px;
+    color:#292929;
+}
+
+.aligne-center{
+    text-align:center;
+}
+
+.aligne-justify{
+    text-align:justify;
+}
+
+button{
+    border: none;
+    background: transparent;
+    outline: 0;
+    text-align: left;
+}
+
+ul, ol{
+    padding-left: 25px;
+}
+
+h1{
+    font-weight: normal;
+    font-size:26px;
+    color:#F15939;
+    font-family: 'neucha';
+}
+
+h2{
+    font-weight: normal;
+    font-size:26px;
+    color:#F15939;
+    font-family: 'neucha';
+    margin: 30px 0;
+}
+
+h3{
+    font-weight: normal;
+    font-size:18px;
+    color:#1CB6B0;
+}
+
+a {
+    text-decoration: none !important;
+    transition: all 0.3s linear;
+    color: #F15939;
+}
+
+a:hover{
+    color: #1C5E93;
+}
+
+.btn{
+    transition: all 0.3s linear;
+    font-weight: 400;
+    font-size:16px;
+    text-transform: uppercase;
+    background:#F15939;
+    border: none;
+    filter:none;
+    color: #FFF;
+    text-shadow: none;
+    padding: 5px 20px;
+    font-family: 'Open Sans', sans-serif;
+    white-space: normal;
+    border-radius:4px;
+}
+
+.btn:hover,.btn:focus{
+    background: #1C5E93;
+    color: #FFF;
+}
+
+.btn-primary {
+    background-image: none;
+    background: #1C5E93;
+    filter:none;
+}
+
+.btn-primary:hover{
+    background:#F15939;
+}
+
+label{
+    font-weight: 400;
+}
+
+strong{
+    font-weight: 600;
+}
+
+object {
+    width:100%;
+    height:600px;
+    overflow: scroll;
+}
+
+.blue{
+    color:#1CB6B0;
+}
+
+.orange{
+    color:#F15939;
+}
+
+
+/*********************************************
+                ACCUEIL
+*********************************************/
+.text-error{
+    color:#F11439;
+}
+
+h4 >strong{
+    font-weight:bold;
+    font-size:20px;
+    color:#f11439;
+}
+
+
+.contenu ul li, .bandeau ul li {
+    list-style-type: none;
+    margin-bottom: 8px;
+    position: relative;
+}
+
+.contenu ul li:before, .bandeau ul li:before{
+    display: inline-block;
+    content: "\f101";
+    font-family: FontAwesome;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-weight: normal;
+    font-style: normal;
+    position: absolute;
+    left: -18px;
+    top: -2px;
+    font-size: 18px;
+}
+
+.contenu{
+    padding: 40px 0;
+}
+
+.galerie{
+    background: #1CB6B0;
+    background-size: 200px auto !important;
+    border-radius: 8px;
+    padding: 20px;
+    font-family: 'neucha';
+    color: #FFF;
+    font-size: 30px;
+    line-height: 36px;
+    position: relative;
+}
+
+.galerie strong{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+    text-transform: uppercase;
+    font-size: 24px;
+    color: #1C5E93;
+}
+
+.galerie:before{
+    content: "";
+    float: right;
+    margin-top: -20px;
+    margin-right: -50px;
+    width: 240px;
+    height: 210px;
+    background: url(../images/photos-icon.png) no-repeat;
+    background-position: 40px;
+    background-size: 30% auto;
+    display: inline-block;
+}
+
+
+/*********************************************
+                CONTENU PAGES
+*********************************************/
+
+.bandeau ul li:before{
+    top: 0;
+}
+
+.bandeau{
+    background: #F15939;
+    color: #FFF;
+    padding: 50px 0 40px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+}
+
+.bandeau h1{
+    font-family: 'neucha';
+    color: #FFF;
+    margin: 15px 0 30px;
+}
+
+.bandeau h2{
+    font-family: 'Open Sans', sans-serif;
+    color: #FFF;
+}
+
+.bandeau a{
+    color: #FFF;
+    text-decoration: underline !important;
+}
+
+.bandeau a:hover{
+    color: #F11439;
+    text-decoration: underline !important;
+}
+
+.blockInscription{
+    background: #1CB6B0;
+    background-size: 60px auto;
+    border-radius: 8px;
+    padding: 20px;
+    color: #1C5E93;
+    font-size: 16px;
+    margin-bottom: 40px;
+    margin-top: 80px;
+}
+
+.pageActivite .blockInscription{
+    margin-top: 180px;
+}
+
+.blockInscription h3{
+    font-family: 'neucha';
+    color: #1C5E93;
+    font-size: 26px;
+    margin-top: 0;
+    font-weight: bold;
+}
+
+.blockInscription li, .blockInscription li a{
+    color: #FFF;
+}
+
+.blockInscription li a:hover{
+    color: #F15939;
+}
+
+/*********************************************
+              MEDIA QUERIES
+*********************************************/
+
+@media (min-width:1200px) {
+    .bandeau h1{font-size: 36px;}
+    h1, h2{font-size: 28px;}
+    .galerie:before{margin-right: -65px;margin-top:-30px;}
+    .pageActivite .blockInscription{margin-top: 220px;}
+}
+
+@media (max-width:991px) {
+    .galerie{max-width: 500px; margin: 40px auto 0;}
+    .galerie:before{margin-right: -65px;margin-top:-30px;}
+    .bandeau{padding: 20px;}
+    .pageActivite .bandeau{text-align: center; padding: 20px 0 100px;}
+    .blockInscription{margin-top: 40px;}
+    .pageActivite .contenu{padding: 150px 0 40px;}
+}
+
+@media (max-width:767px) {
+    h2{font-size: 24px;}
+}
+
+@media (max-width:600px) {
+    .galerie{font-size: 26px;}
+    .galerie:before{margin-top: -20px;
+        margin-right: 15px;
+        margin-left: 40px;}
+}
+
+@media (max-width:450px){
+    .galerie{text-align: center; padding: 15px;}
+    .galerie:before{float: none; margin-right: 0; width: 200px; height: 170px;}
+    .bandeau{padding: 15px 0;}
+}
