@@ -308,6 +308,7 @@ a.navbar-brand.hover{
     /*********************************************
                     CONTENU PAGES
     *********************************************/
+.fa-check { color: green; }
 
 .bandeau ul li:before{
     top: 0;

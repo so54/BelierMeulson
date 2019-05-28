@@ -69,6 +69,9 @@ Route::middleware ('admin')->group (function () {
         Route::name ('index')->get ('/', 'AdminController@edit');
         Route::name ('update')->put ('/', 'AdminController@update');
     });
+    Route::resource ('user', 'UserController', [
+        'only' => ['index', 'edit', 'update', 'destroy']
+    ]);
 });
 
 

@@ -20,15 +20,6 @@
 
             @admin <a id="admin" class="nav-link" href="{{ route('admin') }}">
                 Administration</a> @endadmin
-            @maintenance
-
-            <a> class="" href="{{ route('maintenance.index') }}" data-toggle="tooltip" title="Mode maintenance">
-                <span class="glyphicon glyphicon-alert" style="color: red;">
-                    </span>
-            </a>
-
-            @endmaintenance
-        </div>
             @guest<a id="login" class="nav-link" href="{{ route('login') }}"><i class="fa fa-lock" aria-hidden="true" ></i>
                 Connexion</a>@endguest
         @auth
@@ -38,8 +29,18 @@
                 {{ csrf_field() }}
             </form>
             @endauth
+            @maintenance
+            <li class="pull-right">
+                <a class="right" href="{{ route('maintenance.index') }}" data-toggle="tooltip" title="@lang('Mode maintenance')">
+                    <span class="fa fa-exclamation-circle  fa-lg" style="color: red;">
+                    </span>
+                </a>
+            </li>
+            @endmaintenance
+        </div>
 
         </div>
+
         <div class="txtHeader">
             Périscolaire<br>Restauration<br>Centre de loisirs
         </div>

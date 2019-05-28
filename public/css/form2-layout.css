@@ -5,18 +5,27 @@
 .btn-danger{
     padding:8px 17px !important;
     margin: 5px;
-    background-color:#F15939 !important;
+    background-color: #ce0501 !important;
 }
 
+
 .btn-danger:hover{
-    background-color:#c51f1a !important;
+    background-color:#ad0000 !important;
 }
 
 .btn-warning{
     padding:8px 17px !important;
     margin: 5px;
+    background-color: #Fcd21c !important;
 }
 
+.btn-warning:hover{
+    background-color: #f4c430 !important;
+}
+
+.black{
+    color:black;
+}
 label{
     color:white;
 }

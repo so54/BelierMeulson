@@ -82,6 +82,15 @@ object {
     display: block;
 }
 
+ a.right{
+    background:none !important;
+
+}
+
+ li.pull-right{
+     list-style:none;
+ }
+
 /*********************************************
                     NAV
 *********************************************/

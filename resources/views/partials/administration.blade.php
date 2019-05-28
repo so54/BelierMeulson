@@ -33,13 +33,14 @@ function active2($url)
                 </ul>
             </li>
 
-    @admin        <li class="dropdown <?php active2('/evenement/create'); active2("/evenement"); active2("/photo/create"); ?> ">
-                <a   href="#" class="dropdown-toggle hover" data-toggle="dropdown" >Administration</a>
+    @admin        <li class="dropdown <?php active2('/evenement/create'); active2("/evenement"); active2("/photo/create"); active2("/maintenance"); active2("/user"); ;?> ">
+                <a   href="#" class="dropdown-toggle hover @isset($user) <?php active2('/evenement/create'); active2("/evenement"); active2("/photo/create"); active2("/maintenance"); active2("/user") ;active2("/user/{user}/edit")?>" @endisset data-toggle="dropdown" >Administration</a>
                 <ul class="dropdown-menu ">
                     <li class="<?php active2("/evenement/create"); ?>"><a href="{{ route('evenement.create') }}">  <i class="glyphicon glyphicon-plus"></i> Ajouter un évènement</a></li>
                     <li class="<?php active2("/evenement"); ?>"><a href="{{ route('evenement.index') }}">  <i class="glyphicon glyphicon-wrench"></i> Gérer les évènements</a></li>
                     <li class="<?php active2("/photo/create"); ?>" ><a href="{{ route('photo.create') }}"> <i class="glyphicon glyphicon-picture"></i> Ajouter une photo</a></li>
                     <li class="<?php active2("/maintenance"); ?>"><a href="{{ route('maintenance.index') }}"><i class="glyphicon glyphicon-eye-close"></i> Mode maintenance</a></li>
+                    <li class="<?php active2("/user/{user}/edit"); active2("/user"); ?>"> <a  href="{{ route('user.index') }}"><i class="fa fa-users fa-lg"></i> @lang('Utilisateurs')</a></li>
                 </ul>
             </li>@endadmin
 
