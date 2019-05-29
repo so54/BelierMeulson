@@ -8,24 +8,25 @@
 @section ('card')
  @include('partials.administration')
     @component('components.card')
-        <h4 class="card-header">
+
             @slot('title')
-                <strong class="white">  Ajouter un évènement :</strong>
+
+                <strong class="orange">  Ajouter un album</strong>
 
                 @endslot
 
-                <div class="card-body">
-                    <p><strong class="text-error">*</strong> <span class="white family">Champs obligatoires.</span></p><br>
+
+                    <p><strong class="text-error">*</strong> <span class="family">Champs obligatoires.</span></p><br>
                     <form method="POST" action="{{ route('evenement.store') }}">
                         {{ csrf_field() }}
 
                             <div class="form-group">
-                                <label for="nom_event" class="white">Nom<span class="text-error">&nbsp;*</span> :</label>
+                                <label for="nom_event" class="black">Nom<span class="text-error">&nbsp;*</span> :</label>
                                 <input id="nom_event" name="nom_event" class="form-control {!! $errors->has('nom_event') ? 'has-error' : '' !!}" value="{{ old('nom_event') }}" placeholder="Nom de l'évènement" type="text"  />
                                 {!! $errors->first('nom_event', '<small class="help-block text-error">:message</small>') !!}
                             </div>
                         <div class="form-group">
-                            <label for="date_event" class="white">Date<span class="text-error">&nbsp;*</span> :</label>
+                            <label for="date_event" class="black">Date<span class="text-error">&nbsp;*</span> :</label>
                             <input id="date_event" name="date_event" class="form-control {!! $errors->has('date_event') ? 'has-error' : '' !!}" value="{{ old('date_event') }}"  type="date"  />
                             {!! $errors->first('date_event', '<small class="help-block text-error">:message</small>') !!}
                         </div>
@@ -35,11 +36,11 @@
                         </button>
                         </div>
                         <div class="col-md-6">
-                            <p><a href="{{route('galerie')}}" class="btn btn-default marge">ANNULER</a></p>
+                            <p class="right"><a href="{{route('galerie')}}" class="btn btn-default marge">ANNULER</a></p>
                         </div>
                     </form>
 
-                </div>
-        </h4>
+
+
       @endcomponent
 @endsection

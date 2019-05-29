@@ -23,14 +23,16 @@
     @component('components.card')
                         @slot('title')
 
-                                <strong class="white">Gestion des évènements :</strong>
+                                <strong class="orange">Gestion des albums </strong>
 
                         @endslot
 
-                    <div class="card-body">
+
 
                         <table class="table ">
+                            <thead><th></th><th></th></thead>
                             <tbody>
+
                             @foreach($evenements as $evenement)
                                 <tr>
                                     <td>{{ $evenement->nom_event }}</td>
@@ -40,12 +42,12 @@
                                         <a type="button" href="{{ route('evenement.destroy', $evenement->ID_EVENT) }}"
                                            class=" btn-danger btn btn-sm pull-right " data-method="DELETE"  data-toggle="tooltip"
                                            title="Supprimer l'évènement {{ $evenement->nom_event }}"><i
-                                                    class="glyphicon glyphicon-remove"></i></a>
+                                                    class="fa fa-trash fa-lg"></i></a>
 
                                         <a type="button" href="{{ route('evenement.edit', $evenement->ID_EVENT) }}"
                                            class="btn btn-warning btn-sm pull-right mr-2 " data-toggle="tooltip"
                                            title="Modifier l'évènement {{ $evenement->nom_event }}"><i
-                                                    class="glyphicon glyphicon-edit"></i></a>
+                                                    class="fa fa-edit fa-lg black"></i></a>
 
                                     </td>
                                 </tr>
@@ -54,10 +56,8 @@
                             </tbody>
 
                         </table>
-                        <div class="col-md-6">
-                            <p><a href="{{route('galerie')}}" class="btn btn-default marge">ANNULER</a></p>
-                        </div>
-                    </div>
+
+
 @endcomponent
 
 @endsection

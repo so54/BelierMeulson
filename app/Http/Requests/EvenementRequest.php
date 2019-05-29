@@ -35,7 +35,7 @@ class EvenementRequest extends FormRequest
 
         return [
             'nom_event.between'=>'Le nom doit contenir entre 4 et 50 caractères',
-            'nom_event.unique'=>'Ce nom d\'évènement existe déjà',
+            'nom_event.unique'=>'Ce nom d\'album existe déjà',
             'date_event.date'=>'La date est invalide'
         ];
     }

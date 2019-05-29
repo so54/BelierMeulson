@@ -175,6 +175,10 @@ object {
     font-size:12px;
 }
 
+.right{
+    text-align:right;
+}
+
 /*********************************************
                 ACCUEIL
 *********************************************/
@@ -256,8 +260,15 @@ a.navbar-brand{
     color:white !important;
     font-size: 26px;
 }
+.card{
+    border: 4px solid #88888a !important;
+}
 
-.hover:hover{
+.card-footer{
+    border-top: 4px solid #88888a !important;
+}
+
+.hover:hover, .hover:focus{
     background:#F15939 !important;
 }
 

@@ -73,7 +73,7 @@
                             @if($evenement->ID_EVENT ===$photo->ID_EVENT)
                                 <em>
                                     <a href="{{ route('evenement', $evenement->slug) }}" data-toggle="tooltip"
-                                       title="{{ __('Voir les photos de l\'évènement ') . $evenement->nom_event }}">{{ $evenement->nom_event }}</a>
+                                       title="{{ __('Voir les photos de l\'album ') . $evenement->nom_event }}">{{ $evenement->nom_event }}</a>
                                 </em>
                             @endif
                         @endforeach
@@ -100,7 +100,7 @@
                    data-id="{{ $photo->ID_EVENT }}"
                    href="{{ route('photo.update', $photo->ID_PHOTO) }}"
                    data-toggle="tooltip"
-                   title="Changer d'évènement">
+                   title="Changer d'album">
                     <i class="glyphicon glyphicon-edit"></i>
                 </a>
             </span>

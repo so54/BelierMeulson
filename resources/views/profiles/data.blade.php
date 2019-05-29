@@ -16,7 +16,7 @@
         <h1>Export des données personnelles</h1>
         <div class="card">
             <div class="card-body">
-                <h5 class="card-title">A propos</h5>
+                <h5 class="card-title orange">A propos</h5>
                 <table class="table">
                     <tr>
                         <td>Rapport généré pour : </td>
@@ -24,7 +24,7 @@
                     </tr>
                     <tr>
                         <td>Pour le site :</td>
-                        <td>{{ env('APP_NAME') }}</td>
+                        <td>Association Le Bélier-Meulson</td>
                     </tr>
                     <tr>
                         <td>A l'url :</td>
@@ -41,7 +41,7 @@
         <br>
         <div class="card">
             <div class="card-body">
-                <h5 class="card-title">Utilisateur</h5>
+                <h5 class="card-title orange">Utilisateur</h5>
                 <table class="table">
                     <tr>
                         <td>ID : </td>

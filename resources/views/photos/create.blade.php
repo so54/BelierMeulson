@@ -20,12 +20,12 @@
     @endif
     @include('partials.administration')
     @component('components.card')
-        <h4 class="card-header">
+
             @slot('title')
-                <strong class="white">  Ajouter une photo :</strong>
+                <strong class="orange">  Ajouter une photo </strong>
 
         @endslot
-                <div class="card-body">
+
                     <form method="POST" action="{{ route('photo.store') }}" enctype="multipart/form-data">
                         @csrf
                         <div class="form-group{{ $errors->has('photo') ? 'has-error'  : '' }}">
@@ -33,19 +33,15 @@
                                 <input type="file" id="photo" name="photo"
                                        class="{{ $errors->has('photo') ? 'has-error'  : '' }} custom-file-input form-control" >
                                 {!! $errors->first('photo', '<small class="help-block text-error">:message</small>') !!}
-                                @if ($errors->has('photo'))
-                                    <div class="invalid-feedback">
-                                        {{ $errors->first('photo') }}
-                                    </div>
-                                @endif
+
                             </div>
                             <br>
                         </div>
                         <div class="form-group">
-                            <img id="preview" class="img-fluid white" src="#"  alt="">
+                            <img id="preview" class="img-fluid " src="#"  alt="">
                         </div>
                         <div class="form-group">
-                            <label for="ID_EVENT" class="white">Evènement :</label>
+                            <label for="ID_EVENT" class="black">Album :</label>
                             <select id="ID_EVENT" name="ID_EVENT" class="form-control">
                                 @foreach($evenements as $evenement)
                                     <option value="{{ $evenement->ID_EVENT }}">{{ $evenement->nom_event }}</option>
@@ -59,11 +55,10 @@
                             </button>
                         </div>
                         <div class="col-md-6">
-                            <p><a href="{{route('galerie')}}" class="btn btn-default marge">ANNULER</a></p>
+                            <p class="right"><a href="{{route('galerie')}}" class="btn btn-default marge">ANNULER</a></p>
                         </div>
                     </form>
-        </div>
-        </h4>
+
     @endcomponent
 @endsection
 

@@ -41,7 +41,7 @@ class EvenementController extends Controller
     public function store(EvenementRequest $request, EvenementRepository $repository)
     {
         $repository->store($request->all ());
-        return redirect ()->route ('galerie')->with ('ok', __ ('L\'évènement a bien été enregistré'));
+        return redirect ()->route ('galerie')->with ('ok', __ ('L\'album a bien été enregistré'));
     }
 
     /**
@@ -77,7 +77,7 @@ class EvenementController extends Controller
     {
         $evenement->update($request->all());
 
-        return redirect()->route('evenement.index')->with('ok', __('L\'évènement a bien été modifié'));
+        return redirect()->route('evenement.index')->with('ok', __('L\'album a bien été modifié'));
     }
 
     /**

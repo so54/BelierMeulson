@@ -20,19 +20,33 @@
                     </div>
 
                 @endif
+                    @if (session('ajout'))
+                        <div class="contenu">
+
+                            <div class="alert alert-dismissible alert-success " role="alert">
+                                {{ session('ajout') }}
+                                <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                        </div>
+
+                    @endif
                 @include('partials.administration')
             </div>
             <div class="col-md-3"></div>
         </div>
     </div>
     @component('components.card')
-        <h4 class="card-header">
+
             @slot('title')
-                <strong class="white">  Gestion des utilisateurs (administrateurs en rouge)</strong>
+
+                <strong class="orange">  Gestion des utilisateurs (administrateurs en rouge)</strong>
                 <a href="{{ route('register') }}" class="btn btn-success btn-sm pull-right " role="button" aria-disabled="true"><i class="fa fa-user-plus fa-lg "></i> Ajouter un utilisateur</a>
             @endslot
+
                 <div class="table-responsive">
-                    <table class="table white">
+                    <table class="table black">
                         <thead>
                         <tr class="white">
                             <th scope="col">Nom</th>
@@ -68,7 +82,7 @@
                         </tbody>
                     </table>
                 </div>
-        </h4>
+
     @endcomponent
 @endsection
 
