@@ -182,15 +182,15 @@ ul.footer-links li a:hover{
 @media (max-width:991px) {
     .navTop{clear: both; float: left; margin: 20px 0;}
     .navTop a, .navTop button{border-radius: 10px; display: block; margin: 0 20px 15px;width:200px;}
-    .addFooter, ul.footer-links{text-align: center;}
+    .addFooter, ul.footer-links, .footer-links{text-align: center !important;max-width:100% !important;}
     #footer .navTop a:hover, #footer .navTop button:hover{color:#F11439;}
 }
 
 @media (max-width:767px) {
-    .navTop{float: none; margin: 0 0 15px;}
-    .navTop a, .navTop button{max-width: 250px; margin: 0 auto 10px; }
-    ul.footer-links li{display: block; border: 0;}
-    ul.footer-links li:last-child{border: 0;}
-    h2{font-size: 24px;}
+    .navTop{float: none !important; margin: 0 0 15px !important;}
+    .navTop a, .navTop button{max-width: 250px !important; margin: 0 auto 10px !important; }
+    ul.footer-links li{display: block !important; border: 0 !important;}
+    ul.footer-links li:last-child{border: 0 !important;}
+    h2{font-size: 24px !important;}
 }
 

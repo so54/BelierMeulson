@@ -39,12 +39,12 @@
                 </div>
                 <br>
 
-                <div class="col-md-6"><br>
+                <div class="col-md-6 col-xs-6"><br>
                     <button type="submit" class=" btn btn-default marge">
                         {{ __('Envoyer') }}
                     </button>
                 </div>
-                <div class="col-md-6"><br>
+                <div class="col-md-6 col-xs-6"><br>
                     <p class="right"><a href="{{route('user.index')}}" class="btn btn-default marge">ANNULER</a></p>
                 </div>
             </form>

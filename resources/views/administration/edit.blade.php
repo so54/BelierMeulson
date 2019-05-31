@@ -26,12 +26,12 @@
                 <input id="date_event" name="date_event" class="form-control {!! $errors->has('date_event') ? 'has-error' : '' !!}" value="{{ old('date_event') }}" placeholder="{{$evenement->date_event->format('d/m/Y')}}" type="date"  />
                 {!! $errors->first('date_event', '<small class="help-block text-error">:message</small>') !!}
             </div>
-            <div class="col-md-6">
+            <div class="col-md-6 col-xs-6">
                 <button type="submit"  class=" btn btn-default marge" >
                     {{ __('Envoyer') }}
                 </button>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-6 col-xs-6">
                 <p class="right"><a href="{{route('evenement.index')}}" class="btn btn-default marge">ANNULER</a></p>
             </div>
         </form>

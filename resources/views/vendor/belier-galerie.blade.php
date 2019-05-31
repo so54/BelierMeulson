@@ -1,16 +1,17 @@
+
+
 <div class="site-wrapper">
     <div class="site-wrapper-inner  text-center">
         <i class="glyphicon glyphicon-refresh glyphicon-refresh-animate"></i>
     </div>
 </div>
 
-@extends ('layouts.base')
-
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
 
 <link rel="stylesheet" href="{{asset('css/belier-galerie.css')}}">
 <link rel="stylesheet" href="{{asset('css/app.css')}}">
 
+@extends ('layouts.base')
 @section ('content')
 
 

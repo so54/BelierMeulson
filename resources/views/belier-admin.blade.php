@@ -40,7 +40,7 @@
 <div class="bandeau">
     <div class="container">
         <div class="col-md-7 ">
-            <h1>Administration du site</h1>
+            <h1 class="titre">Administration du site</h1>
         </div>
     </div>
 </div>

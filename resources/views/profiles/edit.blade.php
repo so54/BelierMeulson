@@ -9,7 +9,7 @@
 
             @slot('title')
                 <strong class="orange">  Modifier le profil </strong>
-            <a href="{{ route('profile.destroy', $user->id) }}" class="btn btn-danger btn-sm pull-right " role="button" aria-disabled="true"><i class="fa fa-exclamation-triangle fa-lg"></i> Supprimer mon compte</a>
+                <a href="{{ route('profile.destroy', $user->id) }}" class="btn btn-danger btn-sm pull-right " role="button" aria-disabled="true" data-toggle="tooltip" title="Supprimer mon compte"><i class="fa fa-exclamation-triangle fa-lg"></i><p class="display" >Supprimer mon compte</p></a>
         @endslot
 
                     <p><strong class="text-error">*</strong> <span class=" family">Champs obligatoires.</span></p><br>
@@ -24,13 +24,13 @@
                         {!! $errors->first('email', '<small class="help-block text-error">:message</small>') !!}
                     </div><br>
 
-            <a href="{{ route('profile.show', $user->id) }}" class="btn btn-primary " role="button" aria-disabled="true"><i class="fa fa-user fa-lg "></i> Exporter mes données personnelles</a>
-                    <div class="col-md-6"><br>
+            <a href="{{ route('profile.show', $user->id) }}" class="btn btn-primary " role="button" aria-disabled="true"><i class="fa fa-user fa-lg "></i> Exporter mes données personnelles</a><br>
+                    <div class="col-md-6 col-xs-6"><br>
                         <button type="submit"  class=" btn btn-default marge" >
                             {{ __('Envoyer') }}
                         </button>
                     </div>
-                    <div class="col-md-6"><br>
+                    <div class="col-md-6 col-xs-6"><br>
                         <p class="right"><a href="{{route('galerie')}}" class="btn btn-default marge">ANNULER</a></p>
                     </div>
         </form>

@@ -341,13 +341,13 @@ h4 >strong{
 }
 
 @media (max-width:991px) {
-    .navbar-brand{display: inline-block;}
-    .navbar-info{float: right; margin-top: -220px; text-align: right;}
-    .navTop{clear: both; float: left; margin: 20px 0;}
-    .navTop a, .navTop button{border-radius: 10px; display: block; margin: 0 20px 15px;width:200px;}
-    .txtHeader{margin-bottom:0px;}
-    .logo{padding-top:0px;}
-    .navbar-info p{padding-top:35px;}
+    .navbar-brand{display: inline-block !important;}
+    .navbar-info{float: right !important; margin-top: -220px !important; text-align: right !important;}
+    .navTop{clear: both !important; float: left !important; margin: 20px 0 !important;}
+    .navTop a, .navTop button{border-radius: 10px !important; display: block !important; margin: 0 20px 15px !important;width:200px !important;}
+    .txtHeader{margin-bottom:0px !important;}
+    .logo{padding-top:0px !important;}
+    .navbar-info p{padding-top:35px !important;margin-top:18px !important;}
 }
 
 @media (max-width:767px) {

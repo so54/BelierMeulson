@@ -42,7 +42,7 @@
             @slot('title')
 
                 <strong class="orange">  Gestion des utilisateurs (administrateurs en rouge)</strong>
-                <a href="{{ route('register') }}" class="btn btn-success btn-sm pull-right " role="button" aria-disabled="true"><i class="fa fa-user-plus fa-lg "></i> Ajouter un utilisateur</a>
+                <a href="{{ route('register') }}" class="btn btn-success btn-sm pull-right " role="button" aria-disabled="true"><i class="fa fa-user-plus fa-lg "></i> <p class="display">Ajouter un utilisateur</p></a>
             @endslot
 
                 <div class="table-responsive">

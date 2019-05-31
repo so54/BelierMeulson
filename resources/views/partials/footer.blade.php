@@ -18,7 +18,7 @@
             <p><strong>Le Bélier-Meulson</strong><br>Place de Charles de Gaulle<br>54230 MARON</p>
             <p><a href="tel:0383472623">03 83 47 26 23</a></p>
         </div>
-        <div class="col-md-9">
+        <div class="col-md-9 footer-links">
             <ul class="footer-links">
                 <li><a href="{{route('home')}}">Accueil</a></li>
                 <li><a href="{{route('actualites')}}">Actualités</a></li>

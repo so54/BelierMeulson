@@ -266,6 +266,7 @@ a.navbar-brand{
 
 .card-footer{
     border-top: 4px solid #88888a !important;
+    background-color: white !important;
 }
 
 .hover:hover, .hover:focus{
@@ -524,6 +525,7 @@ a.navbar-brand.hover{
         width:100% !important;
     ;
     }
+    .navbar-info{margin-right:-190px !important;}
     .navbar-nav{display:none !important;}
 
     #navbarSupportedContent{
@@ -548,5 +550,7 @@ a.navbar-brand.hover{
 @media (max-width:450px){
     .bandeau{padding: 15px 0;
     margin-bottom: 20px;}
+    .btn-primary{padding:5px !important;}
+    .display{display:none}
 }
 
