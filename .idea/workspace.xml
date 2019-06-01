@@ -2,53 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4474e0fb-0885-4fc5-ba5d-72643a8bd8a0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/._.DS_Store" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/helpers.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/helpers.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/._.DS_Store" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/IbelierMeulsonstoragelogs/laravel-2019-05-21.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/IbelierMeulsonstoragelogs/laravel-2019-05-23.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/IbelierMeulsonstoragelogs/laravel-2019-05-27.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/IprojetbelierMeulsonstoragedebugbar/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/IprojetbelierMeulsonstoragelogs/laravel-2019-05-01.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/IprojetbelierMeulsonstoragelogs/laravel-2019-05-18.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/belier-accueil.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/belier-accueil.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/belier-admin.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/belier-admin.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/belier-asso-presentation.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/belier-asso-presentation.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/belier-contact.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/belier-contact.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/belier-fonctionnement.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/belier-fonctionnement.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/belier-footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/belier-footer.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/ResetPasswordController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/ResetPasswordController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Mail/Contact.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Mail/Contact.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/mail.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/mail.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/css/belier-galerie.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/belier-galerie.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/belier-header.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/belier-header.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/belier-lieux.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/belier-lieux.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/belier-mentions.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/belier-mentions.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/belier-mercredi.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/belier-mercredi.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/belier-periscolaire.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/belier-periscolaire.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/belier-plan.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/belier-plan.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/belier-restauration.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/belier-restauration.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/belier-tarifs.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/belier-tarifs.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/belier-vacances.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/belier-vacances.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/documents/._Fiche_INSCRIPTION.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/documents/._Fiche_sanitaire_de_liaison.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/documents/._RIB_Belier_Meulson.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/photos/Rdg8zYNZ9OcQ4SPBLWO0owUM0fegK3Xt3FLuYrQY.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/photos/ZvH4p66EDqlAFf5SAS6UTEizAlR9IcW9QDaBRKCy.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/photos/mu2ROY5VRdecua7YoN82rml2Ld4sDGTKRzdAZTpx.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/photos/szsl9pR6OtSUDGklV9H01ezxDLPL2y7FQR1dez0x.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/thumbs/Rdg8zYNZ9OcQ4SPBLWO0owUM0fegK3Xt3FLuYrQY.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/thumbs/ZvH4p66EDqlAFf5SAS6UTEizAlR9IcW9QDaBRKCy.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/thumbs/mu2ROY5VRdecua7YoN82rml2Ld4sDGTKRzdAZTpx.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/thumbs/szsl9pR6OtSUDGklV9H01ezxDLPL2y7FQR1dez0x.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/administration/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/administration/create.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/administration/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/administration/edit.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/belier-admin.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/belier-admin.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/maintenance/maintenance.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/maintenance/maintenance.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/auth/passwords/email.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/passwords/email.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/auth/passwords/reset.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/passwords/reset.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/auth/register.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/register.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/partials/administration.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/partials/administration.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/photos/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/photos/create.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/profiles/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/profiles/edit.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/users/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/users/edit.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/users/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/users/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/vendor/belier-galerie.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/vendor/belier-galerie.blade.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -87,90 +49,91 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/vendor/belier-galerie.blade.php">
+        <entry file="file://$PROJECT_DIR$/resources/views/auth/passwords/email.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="10" lean-forward="true" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
-              <folding>
-                <element signature="e#3359#3380#0#HTML" expanded="true" />
-              </folding>
+            <state relative-caret-position="195">
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/partials/header.blade.php">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/users/index.blade.php">
+        <entry file="file://$PROJECT_DIR$/resources/views/auth/passwords/reset.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="185">
-              <caret line="39" column="33" selection-start-line="39" selection-start-column="33" selection-end-line="39" selection-end-column="33" />
+            <state relative-caret-position="150">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/css/belier-galerie.css">
+        <entry file="file://$PROJECT_DIR$/config/mail.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="278">
-              <caret line="527" column="47" selection-start-line="527" selection-start-column="47" selection-end-line="527" selection-end-column="47" />
+            <state relative-caret-position="945">
+              <caret line="63" column="32" selection-start-line="63" selection-start-column="32" selection-end-line="63" selection-end-column="32" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/public/css/belier-footer.css">
+        <entry file="file://$PROJECT_DIR$/.env">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="314">
-              <caret line="192" column="56" lean-forward="true" selection-start-line="192" selection-start-column="56" selection-end-line="192" selection-end-column="56" />
+            <state relative-caret-position="-9">
+              <caret line="18" column="19" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/partials/footer.blade.php">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ContactController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="20" column="12" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="12" />
+            <state relative-caret-position="253">
+              <caret line="26" column="29" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="29" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/css/belier-admin.css">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Auth/ResetPasswordController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5115">
-              <caret line="341" column="12" selection-start-line="341" selection-start-column="12" selection-end-line="341" selection-end-column="12" />
+            <state relative-caret-position="224">
+              <caret line="29" column="7" selection-start-line="29" selection-start-column="7" selection-end-line="29" selection-end-column="7" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/css/belier-header.css">
+        <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/Auth/ResetsPasswords.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3998">
-              <caret line="349" column="46" selection-start-line="349" selection-start-column="46" selection-end-line="349" selection-end-column="46" />
+            <state relative-caret-position="-280">
+              <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/belier-admin.blade.php">
+        <entry file="file://$PROJECT_DIR$/app/Mail/Contact.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="96">
-              <caret line="37" column="28" lean-forward="true" selection-start-line="37" selection-start-column="28" selection-end-line="37" selection-end-column="28" />
+            <state relative-caret-position="585">
+              <caret line="42" selection-start-line="42" selection-end-line="42" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/administration/create.blade.php">
+        <entry file="file://$PROJECT_DIR$/resources/views/vendor/belier-contact.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="33" column="46" selection-start-line="33" selection-start-column="46" selection-end-line="33" selection-end-column="46" />
+            <state relative-caret-position="1650">
+              <caret line="110" column="18" selection-start-line="110" selection-start-column="18" selection-end-line="110" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Http/Requests/ContactRequest.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -206,12 +169,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/Http/Controllers/ProfileController.php" />
-        <option value="$PROJECT_DIR$/resources/views/layouts/app.blade.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/GalerieController.php" />
-        <option value="$PROJECT_DIR$/resources/views/layouts/admin-layout.blade.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/PhotoController.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/AdminController.php" />
         <option value="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" />
         <option value="$PROJECT_DIR$/resources/views/partials/header.blade.php" />
         <option value="$PROJECT_DIR$/routes/web.php" />
@@ -226,10 +183,8 @@
         <option value="$PROJECT_DIR$/app/Http/Requests/EvenementRequest.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/EvenementController.php" />
         <option value="$PROJECT_DIR$/public/css/form2-layout.css" />
-        <option value="$PROJECT_DIR$/resources/views/auth/register.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/administration/index.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/profiles/data.blade.php" />
-        <option value="$PROJECT_DIR$/.env" />
         <option value="$PROJECT_DIR$/public/css/belier-asso-presentation.css" />
         <option value="$PROJECT_DIR$/public/css/belier-fonctionnement.css" />
         <option value="$PROJECT_DIR$/public/css/belier-mentions.css" />
@@ -242,7 +197,6 @@
         <option value="$PROJECT_DIR$/public/css/belier-vacances.css" />
         <option value="$PROJECT_DIR$/public/css/belier-tarifs.css" />
         <option value="$PROJECT_DIR$/public/css/belier-accueil.css" />
-        <option value="$PROJECT_DIR$/resources/views/partials/administration.blade.php" />
         <option value="$PROJECT_DIR$/app/helpers.php" />
         <option value="$PROJECT_DIR$/resources/views/profiles/edit.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/users/edit.blade.php" />
@@ -255,8 +209,17 @@
         <option value="$PROJECT_DIR$/public/css/belier-admin.css" />
         <option value="$PROJECT_DIR$/public/css/belier-header.css" />
         <option value="$PROJECT_DIR$/resources/views/vendor/belier-galerie.blade.php" />
-        <option value="$PROJECT_DIR$/public/css/belier-galerie.css" />
         <option value="$PROJECT_DIR$/public/css/belier-footer.css" />
+        <option value="$PROJECT_DIR$/resources/views/partials/footer.blade.php" />
+        <option value="$PROJECT_DIR$/public/css/belier-galerie.css" />
+        <option value="$PROJECT_DIR$/resources/views/partials/administration.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/auth/register.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/auth/passwords/email.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/auth/passwords/reset.blade.php" />
+        <option value="$PROJECT_DIR$/app/Mail/Contact.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/Auth/ResetPasswordController.php" />
+        <option value="$PROJECT_DIR$/.env" />
+        <option value="$PROJECT_DIR$/config/mail.php" />
       </list>
     </option>
   </component>
@@ -392,6 +355,56 @@
             <path>
               <item name="belierMeulson" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="~/Desktop/belierMeulson" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="app" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="Http" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="belierMeulson" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="~/Desktop/belierMeulson" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="app" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="Http" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="Controllers" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="belierMeulson" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="~/Desktop/belierMeulson" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="app" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="Http" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="Controllers" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="Auth" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="belierMeulson" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="~/Desktop/belierMeulson" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="app" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="Http" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="Requests" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="belierMeulson" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="~/Desktop/belierMeulson" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="app" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="Mail" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="belierMeulson" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="~/Desktop/belierMeulson" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="config" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="belierMeulson" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="~/Desktop/belierMeulson" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="database" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="belierMeulson" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="~/Desktop/belierMeulson" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="database" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="migrations" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="belierMeulson" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="~/Desktop/belierMeulson" type="442cc68d:ScopeViewTreeModel$RootNode" />
               <item name="public" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
@@ -417,6 +430,21 @@
               <item name="resources" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="views" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="administration" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="belierMeulson" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="~/Desktop/belierMeulson" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="resources" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="views" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="auth" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="belierMeulson" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="~/Desktop/belierMeulson" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="resources" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="views" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="auth" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="passwords" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
               <item name="belierMeulson" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
@@ -459,6 +487,32 @@
               <item name="resources" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="views" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="vendor" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="belierMeulson" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="~/Desktop/belierMeulson" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="resources" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="views" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="vendor" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="mail" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="belierMeulson" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="~/Desktop/belierMeulson" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="resources" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="views" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="vendor" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="mail" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="html" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="belierMeulson" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="~/Desktop/belierMeulson" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="resources" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="views" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="vendor" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="mail" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="text" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
               <item name="belierMeulson" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
@@ -574,18 +628,18 @@
       <workItem from="1559128068735" duration="8150000" />
       <workItem from="1559136409466" duration="6840000" />
       <workItem from="1559227052891" duration="651000" />
-      <workItem from="1559248195480" duration="13907000" />
+      <workItem from="1559248195480" duration="14128000" />
+      <workItem from="1559342369869" duration="9899000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="505001000" />
+    <option name="totallyTimeSpent" value="515121000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="716" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49749583" visible="true" weight="0.18174475" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49749583" visible="true" weight="0.18416801" />
       <window_info id="Structure" order="1" sideWeight="0.50250417" side_tool="true" weight="0.13202934" />
       <window_info id="npm" order="2" sideWeight="0.50250417" side_tool="true" weight="0.13202934" />
       <window_info id="Favorites" order="3" sideWeight="0.50250417" side_tool="true" weight="0.13202934" />
@@ -600,7 +654,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5024233" side_tool="true" weight="0.14037855" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49757674" visible="true" weight="0.18108974" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.49757674" visible="true" weight="0.18108974" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -622,96 +676,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/resources/views/auth/login.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="34" column="146" selection-start-line="34" selection-start-column="146" selection-end-line="34" selection-end-column="205" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/GalerieController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="20" column="26" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/PhotoController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="26">
-          <caret line="58" selection-start-line="58" selection-end-line="58" />
-          <folding>
-            <element signature="e#40#61#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/layouts/form.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="10" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/Auth/RegistersUsers.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="39" column="7" selection-start-line="39" selection-start-column="7" selection-end-line="39" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Auth/LoginController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/components/card.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/components/checkbox.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="64" selection-start-line="3" selection-start-column="64" selection-end-line="3" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Models/Evenement.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="36" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="36" />
-          <folding>
-            <element signature="e#30#56#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Repositories/EvenementRepository.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/EvenementController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="799">
-          <caret line="51" column="7" selection-start-line="51" selection-start-column="7" selection-end-line="51" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Requests/EvenementRequest.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
@@ -726,24 +690,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/auth/register.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1037">
-          <caret line="61" selection-start-line="61" selection-end-line="62" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/profiles/data.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="15" column="48" selection-start-line="15" selection-start-column="48" selection-end-line="15" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.env">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="17" lean-forward="true" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -857,13 +807,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/partials/administration.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="75" column="10" selection-start-line="75" selection-start-column="10" selection-end-line="75" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/belier-accueil.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-931" />
@@ -911,24 +854,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/vendor/belier-galerie.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/partials/header.blade.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/users/index.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
+        <state relative-caret-position="585">
           <caret line="39" column="33" selection-start-line="39" selection-start-column="33" selection-end-line="39" selection-end-column="33" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/belier-admin.blade.php">
+    <entry file="file://$PROJECT_DIR$/public/css/belier-footer.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="37" column="28" lean-forward="true" selection-start-line="37" selection-start-column="28" selection-end-line="37" selection-end-column="28" />
+        <state relative-caret-position="2880">
+          <caret line="192" column="56" selection-start-line="192" selection-start-column="56" selection-end-line="192" selection-end-column="56" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/css/belier-admin.css">
+    <entry file="file://$PROJECT_DIR$/public/css/belier-header.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5115">
-          <caret line="341" column="12" selection-start-line="341" selection-start-column="12" selection-end-line="341" selection-end-column="12" />
+        <state relative-caret-position="5235">
+          <caret line="349" column="46" selection-start-line="349" selection-start-column="46" selection-end-line="349" selection-end-column="46" />
         </state>
       </provider>
     </entry>
@@ -939,44 +892,134 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/css/belier-header.css">
+    <entry file="file://$PROJECT_DIR$/resources/views/partials/footer.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3998">
-          <caret line="349" column="46" selection-start-line="349" selection-start-column="46" selection-end-line="349" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/partials/header.blade.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/vendor/belier-galerie.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="10" lean-forward="true" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
-          <folding>
-            <element signature="e#3359#3380#0#HTML" expanded="true" />
-          </folding>
+        <state relative-caret-position="300">
+          <caret line="20" column="41" selection-start-line="20" selection-start-column="41" selection-end-line="20" selection-end-column="41" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/css/belier-galerie.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="527" column="47" selection-start-line="527" selection-start-column="47" selection-end-line="527" selection-end-column="47" />
+        <state relative-caret-position="331">
+          <caret line="238" selection-start-line="238" selection-end-line="238" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/partials/footer.blade.php">
+    <entry file="file://$PROJECT_DIR$/resources/views/auth/register.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="20" column="12" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="12" />
+        <state relative-caret-position="405">
+          <caret line="59" selection-start-line="32" selection-start-column="27" selection-end-line="59" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/css/belier-footer.css">
+    <entry file="file://$PROJECT_DIR$/resources/views/auth/login.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
-          <caret line="192" column="56" lean-forward="true" selection-start-line="192" selection-start-column="56" selection-end-line="192" selection-end-column="56" />
+        <state relative-caret-position="-734" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/belier-admin.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/belier-admin.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="434">
+          <caret line="341" column="12" selection-start-line="341" selection-start-column="12" selection-end-line="341" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/partials/administration.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="326">
+          <caret line="25" column="84" selection-start-line="25" selection-start-column="84" selection-end-line="25" selection-end-column="84" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/auth/passwords/email.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/auth/passwords/reset.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2019_05_16_150621_create_password_resets_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="18" column="55" lean-forward="true" selection-start-line="18" selection-start-column="55" selection-end-line="18" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Requests/ContactRequest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/vendor/belier-contact.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1650">
+          <caret line="110" column="18" selection-start-line="110" selection-start-column="18" selection-end-line="110" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Mail/Contact.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="42" selection-start-line="42" selection-end-line="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="263">
+          <caret line="39" column="35" lean-forward="true" selection-start-line="39" selection-start-column="35" selection-end-line="39" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ContactController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="26" column="29" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/Auth/ResetsPasswords.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-280">
+          <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Auth/ResetPasswordController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="29" column="7" selection-start-line="29" selection-start-column="7" selection-end-line="29" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/mail.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="945">
+          <caret line="63" column="32" selection-start-line="63" selection-start-column="32" selection-end-line="63" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-9">
+          <caret line="18" column="19" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
         </state>
       </provider>
     </entry>

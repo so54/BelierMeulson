@@ -1,65 +1,54 @@
-@extends('layouts.app')
+@extends('layouts.form')
 
-@section('content')
-<div class="container">
-    <div class="row justify-content-center">
-        <div class="col-md-8">
-            <div class="card">
-                <div class="card-header">{{ __('Reset Password') }}</div>
+<link rel="stylesheet" href="{{asset('css/belier-galerie.css')}}">
+<link rel="stylesheet" href="{{asset('css/form2-layout.css')}}">
 
-                <div class="card-body">
-                    <form method="POST" action="{{ route('password.update') }}">
-                        @csrf
+@section('card')
 
-                        <input type="hidden" name="token" value="{{ $token }}">
 
-                        <div class="form-group row">
-                            <label for="email" class="col-md-4 col-form-label text-md-right">{{ __('E-Mail Address') }}</label>
 
-                            <div class="col-md-6">
-                                <input id="email" type="email" class="form-control @error('email') is-invalid @enderror" name="email" value="{{ $email ?? old('email') }}" required autocomplete="email" autofocus>
+    @component('components.card')
 
-                                @error('email')
-                                    <span class="invalid-feedback" role="alert">
-                                        <strong>{{ $message }}</strong>
-                                    </span>
-                                @enderror
-                            </div>
-                        </div>
 
-                        <div class="form-group row">
-                            <label for="password" class="col-md-4 col-form-label text-md-right">{{ __('Password') }}</label>
+        @slot('title')
+            <strong class="orange">  Modification du mot de passe </strong>
 
-                            <div class="col-md-6">
-                                <input id="password" type="password" class="form-control @error('password') is-invalid @enderror" name="password" required autocomplete="new-password">
+        @endslot
+        <p><strong class="text-error">*</strong> <span class=" family">Champs obligatoires.</span></p><br>
 
-                                @error('password')
-                                    <span class="invalid-feedback" role="alert">
-                                        <strong>{{ $message }}</strong>
-                                    </span>
-                                @enderror
-                            </div>
-                        </div>
+        <form method="POST" action="{{ route('password.request') }}">
+            {{ csrf_field() }}
 
-                        <div class="form-group row">
-                            <label for="password-confirm" class="col-md-4 col-form-label text-md-right">{{ __('Confirm Password') }}</label>
+            <div class="form-group">
+            <input type="hidden" name="token" value="{{ $token }}">
+            <label for="email" class="black">Email <span class="text-error">&nbsp;*</span> :</label>
+            <input id="email" name="email" class="form-control {!! $errors->has('email') ? 'has-error' : '' !!}" type="email" value="{{ old('email') }}"   />
+            {!! $errors->first('email', '<small class="help-block text-error">:message</small>') !!}
+            </div><br>
 
-                            <div class="col-md-6">
-                                <input id="password-confirm" type="password" class="form-control" name="password_confirmation" required autocomplete="new-password">
-                            </div>
-                        </div>
+            <div class="form-group ">
 
-                        <div class="form-group row mb-0">
-                            <div class="col-md-6 offset-md-4">
-                                <button type="submit" class="btn btn-primary">
-                                    {{ __('Reset Password') }}
-                                </button>
-                            </div>
-                        </div>
-                    </form>
-                </div>
+                <label for="password" class="black">Mot de passe <span class="text-error">&nbsp;*</span> :</label>
+                <input id="password" type="password" class="form-control @error('password') is-invalid @enderror {!! $errors->has('password') ? 'has-error' : '' !!}" name="password" >
+                {!! $errors->first('password', '<small class="help-block text-error">:message</small>') !!}
+                <br><br>
+
+
+                <label for="password-confirm" class="black">Confirmation du mot de passe <span class="text-error">&nbsp;*</span> :</label>
+                <input id="password-confirm" type="password" class="form-control {!! $errors->has('password-confirm') ? 'has-error' : '' !!}" name="password_confirmation" >
+                {!! $errors->first('password-confirm', '<small class="help-block text-error">:message</small>') !!}
             </div>
-        </div>
-    </div>
-</div>
+
+
+            <div class="col-md-6 col-xs-6"><br>
+                <button type="submit"  class=" btn btn-default marge" >
+                    {{ __('Modifier ') }}
+                </button>
+            </div>
+            <div class="col-md-6 col-xs-6"><br>
+                <p class="right"><a href="{{route('login')}}" class="btn btn-default  marge">ANNULER</a></p>
+            </div>
+
+        </form>
+    @endcomponent
 @endsection

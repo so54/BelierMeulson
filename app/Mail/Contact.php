@@ -33,14 +33,18 @@ class Contact extends Mailable
     public function build()
     {
 
+       if (isset($this->contact['fichier']) ) {
+            return $this->from('sromain54@hotmail.fr')
+                ->attach($this->contact['fichier']->getRealPath(), array(
+                    'as' => 'fichier.' . $this->contact['fichier']->getClientOriginalExtension(),
+                    'mime' => $this->contact['fichier']->getMimeType()
+                ))
+                ->view('partials.belier-email-contact');
 
-        return $this->from('sromain54@hotmail.fr')
-            ->attach($this->contact['fichier']->getRealPath(), array(
-                'as'=>'fichier.'.$this->contact['fichier']->getClientOriginalExtension(),
-                'mime'=>$this->contact['fichier']->getMimeType()
-            ))
-        ->view('partials.belier-email-contact')
-            ;
+        }
+       else{
+           return $this->from('sromain54@hotmail.fr')->view('partials.belier-email-contact');
 
+       }
     }
 }

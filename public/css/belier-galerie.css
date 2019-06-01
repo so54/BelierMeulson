@@ -230,6 +230,12 @@ div.navmain{
      font-size: 22px;
      line-height: 35px;
      font-family: 'neucha';
+     width: fit-content;
+
+ }
+
+ .styly{
+     border-top-right-radius: 4px !important;
 
  }
 
